@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caits</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="png" href="Assets/Untitled-1.png">
+</head>
+<body>
+    <div class="header-container">
+        <ul class="header" id="navbar">
+            <li><a class="navlinks active" href="#home" onclick="changeActive(0)">Home</a>
+            <li><div id="drop-type">
+                <a class="navlinks" href="#type-page" onclick="changeActive(1)">Types</a> 
+
+                    <div class="dropdown-type">
+                   
+                            <a href="#short-hair">Shorthair and Longhair</a>
+
+                        <a href="#persian" >Persian</a>
+                        <a href="#mainecoon">Maine Coon</a>
+                        <a href="#siamese">Siamese</a>
+                        <a href="#abyssinian">Abyssinian</a>
+                        
+                    </div>
+
+                
+                </div>
+            <li><a class="navlinks" href="#evil-page" onclick="changeActive(2)">Evil</a>
+            <li><a class="navlinks" href="#demons" onclick="changeActive(3)">Dangerous</a>
+        </ul>
+    </div>
+
+    <div class = "container-main" id="home" onmouseover="changeActive(0)">
+        <!--main cat image-->
+        
+        
+        <div class = "heading-container">
+            <h1 class="main-heading">World of Caits</h1>
+        </div>
+
+        <!-- <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99.58 99.58"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-miterlimit:10;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M99.08,1.51V98.08a1,1,0,0,1-1,1H1.51A1,1,0,0,1,.8,97.37L97.37.8A1,1,0,0,1,99.08,1.51Z"/></g></g></svg> -->
+    
+        <a href="#content1" id="arrow">
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 321.92 225.25"><defs><style>.cls-1{fill:none;stroke:rgb(255, 255, 255); stroke-width: 10px ;stroke: miterlimit 10;}.cls-2{opacity:0.26;}</style></defs><title>Let's Explore</title><path class="cls-1" d="M572,619.83H862.51A10.2,10.2,0,0,1,870.78,636L725.52,837A10.2,10.2,0,0,1,709,837L563.73,636A10.2,10.2,0,0,1,572,619.83Z" transform="translate(-561.28 -619.33)"/><path class="cls-2" d="M873,623.22h-2.62a10.18,10.18,0,0,1,.71,12.83L725.81,837a10.12,10.12,0,0,1-5.86,3.93,10.17,10.17,0,0,0,16-.59l145.26-201A10.2,10.2,0,0,0,873,623.22Z" transform="translate(-561.28 -619.33)"/></svg>    
+        
+        </a>
+    
+    </div>
+        
+    <div class="content1" id="content1">
+        <h6>These creatures need no explaination. You must have seen them atleast once in your life(if not, then sir/madam something is seriously wrong). Anyways, all I meant to say was that I don't have to copy-paste the definition. Just like our beloved dogs, these innocent creatures (obviously kidding) come in variety of sizes and shapes (yeah, I meant to say species).</h6>
+    </div>
+    
+    <div class="type-theme" id="type-page"  onmouseover="changeActive(1)">
+        <h2 id="types"> Types </h2>
+        <div class="content2">As of 2019, The International Cat Association (TICA) recognizes 71 standardized breeds. (yep, straight from wikipedia.)<br><br>Now, now, I'll list a few (very few) of them:-</div>
+    </div>
+    <div class="short-hair" id="short-hair"  onmouseover="changeActive(1)">
+        <div class="text">
+            <h2 id="short-hair-heading">Domestic shorthair and longhair.</h2>
+            <h2 id="short-hair-def">Otherwise known as “that cat” (or your standard alley cat) domestics are not an officially recognized or pedigreed breed. Then again, most modern cat breeds are descendents of one type of domestic or another, and 95% of house cats in the US are Domestics. Domestics come in all colors and sizes, and may have long or short of hair.</h2>
+        </div>
+    </div>
+    <div class="persian" id="persian"  onmouseover="changeActive(1)">
+        <div class="text">
+            <h2 id="persian-heading">Persian</h2>
+            <h2 id="persian-def">Despite the need for daily brushing, Persians are a household favorite. Persian cats are known to be calm and somewhat sensitive. As such, gentle environments are recommended for Persians.</h2>
+        </div>
+    </div>
+    <div class="mainecoon" id="mainecoon"  onmouseover="changeActive(1)">
+        <div class="text">
+            <h2 id="mainecoon-heading">Maine Coon</h2>
+            <h2 id="mainecoon-def">Large and playful, but gentle and intelligent, Maine Coons are great with both children and dogs. Popular on farms, Maine Coons tend to follow their people around both inside and outdoors</h2>
+        </div>
+    </div>
+    <div class="siamese" id="siamese"  onmouseover="changeActive(1)">
+        <div class="text">
+            <h2 id="siamese-heading">Siamese</h2>
+            <h2 id="siamese-def">Popular among those who desire a pedigreed pet, the Siamese is as vocal as they are playful. Known to be frisky and full of energy, Siamese cats are a popular household choice.</h2>
+        </div>
+    </div>    
+    <div class="abyssinian" id="abyssinian"  onmouseover="changeActive(1)">
+        <div class="text">
+            <h2 id="abyssinian-heading">Abyssinian</h2>
+            <h2 id="abyssinian-def">Known for their colorful personalities, Abyssinians are famously playful. Contrary to all our notions about cats, many Abyssinians love to play in water.</h2>
+        </div>
+    </div> 
+
+    <div class="evil-theme" id="evil-page"  onmouseover="changeActive(2)">
+        <h2 id="evil"> Cats are Evil </h2>
+        <div class="content3"><br>The Cats are evil creatures. They care a little about you and your house untill their food and comfort supply is stopped. Their evil deeds are endless, but I'll dare to list few. (ik ik, I exaggerated a bit (a bit (yeah backets inside brackets)))</div>
+    </div>
+    <div class="evil4" onmouseover="changeActive(2)">
+        <div class="box" id="box1"><p>They keep jumping on tables and stuff.</p></div>
+        <div class="box" id="box2"><p>They like ruining your washed clothes.</p></div>
+        <div class="box" id="box3"><p>They are bad news for furniture.</p></div>
+        <div class="box" id="box4"><p>Not to mention what happens when they're pissed on random reasons.</p></div>
+    </div>
+    <div class="demons" id="demons" onmouseover="changeActive(3)">
+        <h2 style="font-size: xx-large; font-weight: bold;">Dangerous</h2><h2><br><br>cats are believed to be extremely dangerous. (If you see em, run away!) <br><br></h2>
+        <!-- <div class="demon-content">
+            <div class="demon" id="d1"><p>This alien cat was sent to Earth to help conquering the planet!</p></div>
+            <div class="demon" id="d2"><p>This cat was possessed by an evil spirit!</p></div>
+            <div class="demon" id="d3"><p>This cat is the lord of destruction on a parallel universe!</p></div>
+        </div> -->
+    </div>
+    
+    <div class = "dangerous-theme" onmouseover="changeActive(3)">
+        <div class="container">
+            <div class="danger-text" onmouseover="changeWidth(0)" onmouseout="resetWidth(0)"><p>This alien cat was sent to Earth to help conquering the planet!</p></div>
+            <div class="danger-image" id="img1"></div>
+        </div>
+        
+        <div class="container">
+            <div class="danger-image" id="img2"></div>
+            <div class="danger-text" onmouseover="changeWidth(1)" onmouseout="resetWidth(1)"><p>This cat is the lord of destruction on a parallel universe!</p></div>
+        </div>
+        <div class="container">
+            <div class="danger-text" onmouseover="changeWidth(2)" onmouseout="resetWidth(2)"><p>This cat was possessed by an evil spirit!</p></div>
+            <div class="danger-image" id="img3"></div>
+        </div>
+    </div>
+
+</body>
+</html> 
